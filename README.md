@@ -15,7 +15,7 @@ Detailed documentation is in the "docs" directory.
 
    ### Import module
 
-         from htmlToPdf.job import htmlToPdf
+         from htmlToPdf.job import htmlToPdfy
 
    Let suppose we have a model like this:
 
@@ -30,7 +30,7 @@ Detailed documentation is in the "docs" directory.
          user.save()
    ### We supposed we have a template named cni.html already designed on which we want to display name and age
 
-         cni_file = htmlToPdf (
+         cni_file = htmlToPdfy (
             media_root_url=settings.MEDIA_ROOT,
             file_name="cni",
             template_src = "cni.html",

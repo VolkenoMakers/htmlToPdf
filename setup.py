@@ -11,7 +11,7 @@ def readme():
 
 setup(
     name='htmltopdfy',
-    version='1.0.0',
+    version='1.0.1',
     description='Convert template html to pdf',
     long_description=readme(),
     long_description_content_type='text/markdown',

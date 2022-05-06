@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: htmltopdfy
-Version: 1.0.0
+Version: 1.0.1
 Summary: Convert template html to pdf
 Home-page: https://github.com/VolkenoMakers/htmlToPdf
 Author: VOLKENO
@@ -27,7 +27,7 @@ Detailed documentation is in the "docs" directory.
 
 1. Install the module:
 
-         pip install htmlToPdf
+         pip install htmltopdfy
 
 2. EXAMPLE
 
@@ -44,7 +44,7 @@ Detailed documentation is in the "docs" directory.
             age = models.CharField(max_length=20)
             cni = models.FileField(null=True,blank=True)
    ### Let's create user
-         user = User(name="dddd",age=23, document)
+         user = User(name="dddd",age="23")
          user.save()
    ### We supposed we have a template named cni.html already designed on which we want to display name and age
 

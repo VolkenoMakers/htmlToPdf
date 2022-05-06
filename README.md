@@ -9,7 +9,7 @@ Detailed documentation is in the "docs" directory.
 
 1. Install the module:
 
-         pip install htmlToPdf
+         pip install htmltopdfy
 
 2. EXAMPLE
 

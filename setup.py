@@ -10,7 +10,7 @@ def readme():
         return f.read()
 
 setup(
-    name='htmlToPdfy',
+    name='htmltopdfy',
     version='1.0.0',
     description='Convert template html to pdf',
     long_description=readme(),

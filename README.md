@@ -26,7 +26,7 @@ Detailed documentation is in the "docs" directory.
             age = models.CharField(max_length=20)
             cni = models.FileField(null=True,blank=True)
    ### Let's create user
-         user = User(name="dddd",age=23, document)
+         user = User(name="dddd",age="23")
          user.save()
    ### We supposed we have a template named cni.html already designed on which we want to display name and age
 
